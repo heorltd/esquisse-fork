@@ -6,7 +6,7 @@ modal_settings <- function(aesthetics = NULL, session = shiny::getDefaultReactiv
   ns <- session$ns
   modalDialog(
     title = tagList(
-      i18n("Esquisse settings"),
+      i18n("Settings"),
       button_close_modal()
     ),
     tags$label(

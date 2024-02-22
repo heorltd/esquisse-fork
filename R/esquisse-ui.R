@@ -54,7 +54,7 @@ esquisse_ui <- function(id,
   }
   tag_header <- tags$div(
     class = "esquisse-title-container",
-    tags$h1("Esquisse", class = "esquisse-title"),
+    tags$h1("HEOR plot builder", class = "esquisse-title"),
     tags$div(
       class = "pull-right float-end",
       if (isTRUE(header_btns$settings)) {
